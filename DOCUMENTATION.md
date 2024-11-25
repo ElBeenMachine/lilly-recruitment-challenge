@@ -20,6 +20,6 @@ I would have liked to implement better error handline, but unfortuantely ran out
 ## Evaluation
 I feel like this challenge was very vell written, with all of the objectives and restrictions clearly laid out. There was plenty of room in the scope to adapt the application to be implemented with my own vision, but this could also be seen as a negative in a professional environment. 
 
-I did unfortunately run out of time, meaning I was unable to implement some feature I would have liked to, but I was still able to make a (mostly) responsive solution, that met all of the criteria and objectives laid out. 
+I did unfortunately run out of time, meaning I was unable to implement some feature I would have liked to, but I was still able to make a (mostly) responsive solution, that met all of the criteria and objectives laid out. This does unfortauntely exclude the optional feature to implement a backend averages function, but I would have liked to implement this into an additional frontend feature for displaying reports.
 
 If given more time, and a slightly expanded scope, I would have implemented separate pages for the submission and viewing of medicine data, and added functionality for the other avialble API routes, with server side error handling to prevent client side manipulation of how the form data is handled. 
