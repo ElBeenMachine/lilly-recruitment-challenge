@@ -10,11 +10,50 @@
     <div class="disclaimer" id="disclaimer">
         Disclaimer: All medicine names and prices used in this application are fictional and do not represent any real medicine(s).
     </div>
-    <header>
-        <h1>Medicine Tracker</h1>
-    </header>
     <main>
+        <!-- Table illustrating the available medications -->
+        <div id="available-meds">
+            <header>
+                <h1>Available Medicines</h1>
+            </header>
+            <div id="data-view">
+                <div id="loading-message">
+                    <div class="loader"></div>
+                </div>
+    
+                <table id="data-table" class="hidden">
+                    <thead>
+                        <tr>
+                            <th>Medicine Name</th>
+                            <th>Price (£)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-table-body">
+                        <!-- Data will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
+        <!-- Form to add a medication to the table -->
+        <div id="add-med">
+            <header>
+                <h1>Add Medicine</h1>
+            </header>
+            <div id="form-view">
+                <form id="add-med-form">
+                    <div class="form-group">
+                        <label for="med-name">Medicine Name</label>
+                        <input type="text" id="med-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="med-price">Price (£)</label>
+                        <input type="text" id="med-price" name="price" required>
+                    </div>
+                    <button type="submit">Add Medicine</button>
+                </form>
+            </div>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
